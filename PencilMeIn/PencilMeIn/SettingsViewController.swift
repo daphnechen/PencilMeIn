@@ -10,6 +10,8 @@ import UIKit
 
 class SettingsViewController: UIViewController {
     
+     // MARK: Properties
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,16 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func businessNameChanged(sender: UITextField) {
+    }
     
+    @IBAction func keyWordsEdited(sender: UITextField) {
+    }
+    
+    @IBAction func rescheduleNumberChanged(sender: UISlider) {
+    }
+    
+    @IBAction func rescheduleTimeLimitChanged(sender: UISlider) {
+    }
 }
 
