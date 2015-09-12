@@ -26,7 +26,7 @@ class ScheduleViewController: UIViewController {
 }
 
 
-// Create an Event Store isntance 
+// Create an Event Store instance 
 let eventStore = EKEventStore();
 
 // Use Event Store to create a new calendar instance 

@@ -388,7 +388,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Messages" image="chat" id="3tC-1T-T57"/>
-                    <navigationItem key="navigationItem" title="Messages" id="V14-Ka-nRw"/>
+                    <navigationItem key="navigationItem" title="Title" id="Hst-2h-XXy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LFi-B5-3WX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
