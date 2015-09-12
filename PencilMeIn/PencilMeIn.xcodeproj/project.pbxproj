@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		06BC5B3D1BA411510093DF18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC5B3C1BA411510093DF18 /* AppDelegate.swift */; };
-		06BC5B3F1BA411510093DF18 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC5B3E1BA411510093DF18 /* FirstViewController.swift */; };
-		06BC5B411BA411510093DF18 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC5B401BA411510093DF18 /* SecondViewController.swift */; };
-		06BC5B441BA411510093DF18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BC5B421BA411510093DF18 /* Main.storyboard */; };
-		06BC5B461BA411510093DF18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06BC5B451BA411510093DF18 /* Images.xcassets */; };
 		06BC5B491BA411510093DF18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BC5B471BA411510093DF18 /* LaunchScreen.xib */; };
 		06BC5B551BA411510093DF18 /* PencilMeInTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC5B541BA411510093DF18 /* PencilMeInTests.swift */; };
+		7989190D1BA41B0900EFD5FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798919081BA41B0900EFD5FA /* Main.storyboard */; };
+		7989190E1BA41B0900EFD5FA /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798919091BA41B0900EFD5FA /* ScheduleViewController.swift */; };
+		7989190F1BA41B0900EFD5FA /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7989190A1BA41B0900EFD5FA /* EmployeeViewController.swift */; };
+		798919101BA41B0900EFD5FA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7989190B1BA41B0900EFD5FA /* SettingsViewController.swift */; };
+		798919111BA41B0900EFD5FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7989190C1BA41B0900EFD5FA /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +31,15 @@
 		06BC5B371BA411510093DF18 /* PencilMeIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PencilMeIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06BC5B3B1BA411510093DF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06BC5B3C1BA411510093DF18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06BC5B3E1BA411510093DF18 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		06BC5B401BA411510093DF18 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		06BC5B431BA411510093DF18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		06BC5B451BA411510093DF18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		06BC5B481BA411510093DF18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		06BC5B4E1BA411510093DF18 /* PencilMeInTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PencilMeInTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06BC5B531BA411510093DF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06BC5B541BA411510093DF18 /* PencilMeInTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilMeInTests.swift; sourceTree = "<group>"; };
+		798919081BA41B0900EFD5FA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		798919091BA41B0900EFD5FA /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		7989190A1BA41B0900EFD5FA /* EmployeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
+		7989190B1BA41B0900EFD5FA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7989190C1BA41B0900EFD5FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				06BC5B3C1BA411510093DF18 /* AppDelegate.swift */,
-				06BC5B3E1BA411510093DF18 /* FirstViewController.swift */,
-				06BC5B401BA411510093DF18 /* SecondViewController.swift */,
-				06BC5B421BA411510093DF18 /* Main.storyboard */,
-				06BC5B451BA411510093DF18 /* Images.xcassets */,
+				798919081BA41B0900EFD5FA /* Main.storyboard */,
+				798919091BA41B0900EFD5FA /* ScheduleViewController.swift */,
+				7989190A1BA41B0900EFD5FA /* EmployeeViewController.swift */,
+				7989190B1BA41B0900EFD5FA /* SettingsViewController.swift */,
+				7989190C1BA41B0900EFD5FA /* Images.xcassets */,
 				06BC5B471BA411510093DF18 /* LaunchScreen.xib */,
 				06BC5B3A1BA411510093DF18 /* Supporting Files */,
 			);
@@ -195,9 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06BC5B441BA411510093DF18 /* Main.storyboard in Resources */,
+				798919111BA41B0900EFD5FA /* Images.xcassets in Resources */,
 				06BC5B491BA411510093DF18 /* LaunchScreen.xib in Resources */,
-				06BC5B461BA411510093DF18 /* Images.xcassets in Resources */,
+				7989190D1BA41B0900EFD5FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06BC5B411BA411510093DF18 /* SecondViewController.swift in Sources */,
 				06BC5B3D1BA411510093DF18 /* AppDelegate.swift in Sources */,
-				06BC5B3F1BA411510093DF18 /* FirstViewController.swift in Sources */,
+				7989190F1BA41B0900EFD5FA /* EmployeeViewController.swift in Sources */,
+				7989190E1BA41B0900EFD5FA /* ScheduleViewController.swift in Sources */,
+				798919101BA41B0900EFD5FA /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		06BC5B421BA411510093DF18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06BC5B431BA411510093DF18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		06BC5B471BA411510093DF18 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,6 +411,7 @@
 				06BC5B5A1BA411510093DF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06BC5B5B1BA411510093DF18 /* Build configuration list for PBXNativeTarget "PencilMeInTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +420,7 @@
 				06BC5B5D1BA411510093DF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
